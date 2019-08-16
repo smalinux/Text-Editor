@@ -1,11 +1,11 @@
-headers=  -lncurses -lpanel -lform -lmenu
+headers= 
 
 all: main.c
-	touch main.c # make sure you compiling alteast version of .c files! smart, huh?!
+	touch main.c # make sure you compiling latest version of .c files! smart, huh?!
 	clear
 	gcc main.c -o main -Wall -Wextra -pedantic -std=c99
-# 	clear 	# COMMENT ME!!!
-# 	./main
+	./main
+	# clear 	# COMMENT ME!!!
 
 clean:
 	rm *.o

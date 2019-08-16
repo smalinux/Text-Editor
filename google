@@ -1,4 +1,14 @@
+01.setup
+=================================================
+echo $?
+
+C99 vs ANSI C
+
+terminal raw mode 
+	libc: Canonical & nonCanonical mode
+
 #include <unistd.h>
+
 #include <termios.h> Terminal os
 
 struct termios
@@ -14,7 +24,7 @@ read this again:
 
 https://en.wikipedia.org/wiki/Bit_field
 
-echo $?
+
 
 
 
