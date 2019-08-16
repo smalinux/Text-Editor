@@ -1,0 +1,20 @@
+#include <unistd.h>
+#include <termios.h> Terminal os
+
+struct termios
+STDIN_FILENO
+
+canonical mode (default mode || cooked mode)
+raw mode
+
+i need to study el c standard library very well!
+
+read this again: 
+	https://viewsourcecode.org/snaptoken/kilo/02.enteringRawMode.html
+
+https://en.wikipedia.org/wiki/Bit_field
+
+echo $?
+
+
+
