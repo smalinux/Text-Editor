@@ -9,7 +9,15 @@ terminal raw mode
 
 #include <unistd.h>
 
+carriage return
+
 #include <termios.h> Terminal os
+
+
+- learn El error handling in C && <errno.h>
+
+
+
 
 struct termios
 STDIN_FILENO
